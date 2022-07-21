@@ -56,7 +56,7 @@ case "${1}" in
     "${python_exec}" tools/run_test.py ${@:2} tests/unit-alu/
     ;;
   test_regfile)
-    "${python_exec}" tools/run_test.py ${@:2} tests/integration-branch/
+    "${python_exec}" tools/run_test.py ${@:2} tests/unit-regfile/
     ;;
   download_tools)
     "${python_exec}" tools/download_tools.py ${@:2}
