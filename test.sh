@@ -58,6 +58,15 @@ case "${1}" in
   test_regfile)
     "${python_exec}" tools/run_test.py ${@:2} tests/unit-regfile/
     ;;
+  run)
+    "${python_exec}" tools/run_test.py ${@:2}
+    ;;
+  diff)
+    "${python_exec}" tools/diff_output.py ${@:2}
+    ;;
+  format)
+    "${python_exec}" tools/format_output.py ${@:2}
+    ;;
   download_tools)
     "${python_exec}" tools/download_tools.py ${@:2}
     ;;
