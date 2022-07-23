@@ -78,7 +78,7 @@ def generate_test_circ(asm_path, test_circ_path, slug, num_cycles):
     except FileNotFoundError:
         pass
 
-    rom_contents = f"addr/data: 14 32\n{' '.join(insts)}\n"
+    rom_contents = f"addr/data: 14 32\n{' '.join(insts).lower()}\n"
     halt_constant_val = hex(num_cycles)
 
     # Python `xml` is insecure, magic values to the rescue!
