@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.8.0-61c.b5e883a" version="1.0">
-  This file is intended to be loaded by Logisim-evolution v3.8.0-61c.b5e883a(https://github.com/61c-teach/logisim-evolution).
+<project source="3.8.0-61c.07e32fb" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0-61c.07e32fb(https://github.com/61c-teach/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -126,7 +126,7 @@
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(190,240)" name="Constant">
-      <a name="value" val="0x11"/>
+      <a name="value" val="0x12"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(200,170)" name="Tunnel">
@@ -224,7 +224,7 @@
       <a name="contents">addr/data: 8 32
 155 62381add ffffbeef ac273deb f0000000 10000 155 62381add
 ffffbeef ac273deb f0000000 10000 155 62381add ffffbeef ac273deb
-f0000000 10000
+f0000000 1
 </a>
       <a name="dataWidth" val="32"/>
     </comp>
@@ -236,14 +236,16 @@ f0000000 10000
       <a name="contents">addr/data: 8 32
 123 7435daa4 ffffdead efffffff 10 10000 123 7435daa4
 ffffdead efffffff 10 10000 123 7435daa4 ffffdead efffffff
-10 10000
+10 1
 </a>
       <a name="dataWidth" val="32"/>
     </comp>
     <comp lib="4" loc="(930,350)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 4
-6*8 6*b 6*9
+8 8 8 8 8 8 b b
+b b b b 9 9 9 9
+9 9
 </a>
       <a name="dataWidth" val="4"/>
     </comp>
