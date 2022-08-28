@@ -168,7 +168,7 @@ case "${1}" in
     "${python_exec}" tools/format_output.py ${@:2}
     ;;
   download_tools)
-    "${python_exec}" tools/download_tools.py ${@:2}
+    bash tools/download_tools.sh ${@:2}
     ;;
   *)
     help
